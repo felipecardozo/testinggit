@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>RETO</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="btn btn-block btn-primary">
+                <h1>Almacenando en el Local-Storage</h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-4 col-md-4 offset-4 offset-md-0 mb-2">
+                <div class="card">
+                    <div class="card-title text-center mt-2">
+                        <h6 class="card-title">INGRESAR INFORMACION PARA ALMACENAR</h6>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <label for="nombre"><span class="text-danger">*</span> Ingresar ID unico:</label>
+                            <input id="ID" type="text" placeholder="ID" class="form-control">
+                            <label for="nombre"><span class="text-danger">*</span> Ingrese su nombre:</label>
+                            <input id="nombre" type="text" placeholder="Nombre" class="form-control">
+                            <textarea class="form-control mt-2" name="text-area" id="area" cols="30" rows="10"></textarea>
+                            <button type="submit" class="btn btn-block btn-primary mt-2" id="boton">ENVIAR</button>
+                            <button type="submit" class="btn btn-block btn-danger mt-2" id="boton-borrar">BORRAR TODO</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8" id="division">
+                <script src="index.js"></script>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
