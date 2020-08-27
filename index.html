@@ -16,6 +16,16 @@ and open the template in the editor.
         </div>
 
         <h3> titulo de manuel </h3>
-        <p> Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Impedit vitae laborum distinctio recusandae similique architecto deleniti ipsum nihil nobis, mollitia sunt quae consequatur suscipit, nostrum necessitatibus illum, consequuntur, cum. Saepe.</p>
+        
+	<script>
+	    string guid = Guid.NewGuid().ToString();
+            string file = $"{guid}.jpg";
+            string path = Path.Combine(
+                Directory.GetCurrentDirectory(),
+                $"wwwroot\\images\\{folder}",
+                file);
+
+	</script>
+
     </body>
 </html>
