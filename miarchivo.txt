@@ -1,9 +1,9 @@
 linea 1
 linea 2
 linea 3
-linea 4
-linea 5
-linea 6
+linea 4 delete 
+linea 5 and 
+linea 6 delete
 linea 7
 linea 8
 commit 1
